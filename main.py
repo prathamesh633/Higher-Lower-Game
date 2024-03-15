@@ -48,7 +48,7 @@ while Condition:
   guess_ans = input("Who has more followers? Type 'A' or 'B': ")
   A = que1['follower_count']
   B = que2['follower_count']
-  clear()
+  os.system('cls')
   check_answer()
 
   while Condition:
@@ -65,7 +65,7 @@ while Condition:
     A = que2['follower_count']
     B = que3['follower_count']
     guess_ans = input("Who has more followers? Type 'A' or 'B': ")
-    clear()
+    os.system('cls')
     check_answer()
     que2 = que3
     data.remove(que3)
